@@ -1,18 +1,31 @@
-## Getting Started
+# desafio-capgemini
+#### Por Alex Pereira
+![](https://www.capgemini.com/br-pt/wp-content/themes/capgemini-komposite/assets/images/logo.svg)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+> O objetivo dessa documentação é detalhar a resolução em JAVA das três questões propostas no Desafio De Programação Capgemini, assim como as intruções de como rodar a aplicação.
+***
 
-## Folder Structure
+## :heavy_check_mark:  Requisitos
+Java 11 ou superior - https://www.oracle.com/br/java/technologies/javase/jdk11-archive-downloads.html
 
-The workspace contains two folders by default, where:
+## Tecnologias utilizadas
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Para o desenvolvivemto foram utilizadas as seguintes tecnologias:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+>- Java - linguagem de programação
+>- JUnit - Testes unitários
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Rodando o Projeto
 
-## Dependency Management
+1. Clone ou baixe o projeto na sua máquina.
+2. Indique o diretório local na IDE desejada.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### Solução
+
+3. A solução das questões estão divididas em 3 arquivos .java **( QuestaoUm.java, QuestaoDois.java e QuestãoTres.java)** no diretório "**src/br/com/capgemini/desafio/funcoes/**"
+4. Para rodar a solução selecione **QuestaoUm.java, QuestaoDois.java ou QuestãoTres.java** e execute a aplicação
+
+### Testes
+
+5. Os testes unitários estão divididos em 3 arquivos .java **( QuestaoUmTeste.java, QuestaoDoisTeste.java e QuestãoTresTeste.java)** no diretório "**src/br/com/capgemini/desafio/testes/**".
+6. Para rodar os teste separadamente selecione **QuestaoUmTeste.java, QuestaoDoisTeste.java ou QuestãoTresTeste.java** e os execute.
